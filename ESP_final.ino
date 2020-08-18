@@ -21,12 +21,12 @@ const char fingerprint[] = "BC B0 1A 32 80 5D E6 E4 A2 29 66 2B 08 C8 E0 4C 45 2
 // If this device is deployed in the field you should only deploy a revocable
 // key. This code is only suitable for prototyping or if you retain physical
 // control of the installation.
-const char* account_sid = "ACcd2aa863918bca720ce6cd44da0f5f4d";
-const char* auth_token = "c5fcaf318b26291e5433807197c8140a";
+const char* account_sid = "xxxxxxxx";
+const char* auth_token = "xxxxxxxx";
 
 // Details for the SMS we'll send with Twilio.  Should be a number you own 
 // (check the console, link above).
-String to_number    = "+918939212604";
+String to_number    = "xxxx";
 String from_number = "+14403791317";
 String message_body    = "Hello from Twilio and the ESP8266!";
 
